@@ -30,7 +30,7 @@ body::before {
 @media (max-width: 500px) {
   body::before {
     background: #040404 url("../img/2.jpg") top right no-repeat;
-    background-size: 100% 100vh;
+    background-size: 100%;
   }
 }
 
