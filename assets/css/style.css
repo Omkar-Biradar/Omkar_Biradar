@@ -74,27 +74,66 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 a{
-  color: black;
+  color: white;
   line-height: 1;
   display: inline-block;
 }
 
-#header h1 a:hover {
-  color: #fff;
+@media (min-width: 1024px) {
+   #header h1 a{
+    color: black;
+  line-height: 1;
+  display: inline-block;
+  }
+
+  #header h1 a:hover {
+  color: #17a2b8;
+  line-height: 1;
+  display: inline-block;
+}
+}
+
+@media (max-width: 500px) {
+  #header h1 a{
+        color: white;
+  line-height: 1;
+  display: inline-block;
+  }
+
+  #header h1 a:hover {
+  color: #17a2b8;
   line-height: 1;
   display: inline-block;
 }
 
-#header h2 {
+}
+
+@media (min-width: 1024px) {
+  #header h2 {
   font-size: 24px;
   margin-top: 20px;
   color: black;
 }
-
 #header h2 span {
   color: black;
   border-bottom: 2px solid #17a2b8;
   padding-bottom: 6px;
+}
+
+
+}
+
+@media (max-width: 500px) {
+ #header h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  color: white;
+}
+#header h2 span {
+  color: white;
+  border-bottom: 2px solid #17a2b8;
+  padding-bottom: 6px;
+}
 }
 
 #header img {
